@@ -1,0 +1,35 @@
+{
+  "name": "react-native-oh-open-contact-form",
+  "version": "1.0.2",
+  "description": "open contact form for react native harmony",
+  "main": "index.ts",
+  "keywords": [],
+  "author": "wiseqingyang@163.com (https://github.com/react-native-oh-open-contact-form)",
+  "license": "ISC",
+  "harmony": {
+    "alias": "react-native-contacts",
+    "codegenConfig": {
+      "type": "modules",
+      "specPaths": [
+        "./src/specs"
+      ]
+    }
+  },
+  "files": [
+    "index.ts",
+    "src/*",
+    "harmony/*",
+    "harmony.tar.gz"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-contacts": "7.0.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "react": "18.2.0",
+    "react-native": "0.72.5"
+  },
+  "dependencies": {}
+}
